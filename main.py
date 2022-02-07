@@ -1,4 +1,9 @@
 from calculadora import soma
 
 
-print(soma(15, 15))
+try:
+    print(soma(15, 15))
+except AssertionError as e:
+    print(e)
+
+print('conta' + soma(20, 20))
