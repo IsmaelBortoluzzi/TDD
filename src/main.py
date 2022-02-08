@@ -1,4 +1,4 @@
-from calculadora import soma
+from src.calculadora import soma
 
 
 try:
