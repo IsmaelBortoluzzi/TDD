@@ -1,5 +1,5 @@
 import unittest
-from bacon_com_ovos import bacon_com_ovos
+from src.bacon_com_ovos import bacon_com_ovos
 
 
 class TestBaconComOvos(unittest.TestCase):
